@@ -73,7 +73,7 @@ function calculateOperations() {
     suma = num1 + num2;
     resta = num1 - num2;
     multiplicacion = num1 * num2;
-    division = num2 !== 0 ? (num1 / num2) : 'Error: No se puede dividir por 0';
+    division = (num1 / num2);
 
     //Aqui termina el codigo para las operaciones del ejercicio 1
     
